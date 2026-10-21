@@ -1,0 +1,16 @@
+Guess the Number
+--------------------------------
+Guess a number between 1 and 10.
+You have 3 tries to try and guess the number otherwise you lose!
+
+Too Low!
+
+Too Low!
+
+Too Low!
+
+GAME OVER
+You have run out of attempts
+
+The number was 7
+Thanks for playing!

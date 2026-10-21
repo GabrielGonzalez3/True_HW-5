@@ -12,5 +12,5 @@ Too Low!
 GAME OVER
 You have run out of attempts
 
-The number was 7
+The number was 9
 Thanks for playing!

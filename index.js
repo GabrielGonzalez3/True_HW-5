@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import prompts from "prompts";
 import {randomInt} from "crypto";
-import { appendFileSync, writeFileSync } from "node:fs";
+import { writeFileSync, writeFile } from "node:fs";
 
 //Variables to make it easier to type
 const log = console.log;
@@ -93,7 +93,9 @@ const result = await game_handling(MAX_attemps);
 messages(result, chalk.whiteBright);
 messages("Thanks for playing!", chalk.blueBright);
 
-writeFileSync('results.txt', output.join('\n'), (err) =>{
+//Quite literally outputs everything to file, uses .join to basically return the string to the file
+//well its an array so we have join the array and use \n to space it out between the lines
+writeFile('results.txt', output.join('\n'), (err) =>{
     if(err) throw err;
     log('Output has been send to results.txt');
 });

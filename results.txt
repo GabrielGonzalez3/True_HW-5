@@ -3,14 +3,9 @@ Guess the Number
 Guess a number between 1 and 10.
 You have 3 tries to try and guess the number otherwise you lose!
 
-Too Low!
+Too High!
 
-Too Low!
+Congratulations You WIN!
 
-Too Low!
-
-GAME OVER
-You have run out of attempts
-
-The number was 9
+The number was 2
 Thanks for playing!

@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import prompts from "prompts";
 import {randomInt} from "crypto";
-import { writeFileSync, writeFile } from "node:fs";
+import { writeFile } from "node:fs";
 
 //Variables to make it easier to type
 const log = console.log;
